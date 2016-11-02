@@ -1,0 +1,38 @@
+
+.App-logo {
+  height: 60px;
+  margin-top: 90px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 250px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.Form {
+  max-width: 900px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.Sent {
+  animation: ShowUp 0.3s forwards ease-in
+}
+
+@keyframes ShowUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
